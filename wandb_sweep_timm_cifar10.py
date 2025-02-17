@@ -338,7 +338,7 @@ class ModelManager:
 
 def main():
     """메인 실행 함수"""
-    wandb.login(key="778bee3c674f0406ca412b55a53bd4a9ea227835")
+    wandb.login(key="insert_you_wandb_api_key_here")
     
     # 모델 매니저 초기화
     manager = ModelManager()
